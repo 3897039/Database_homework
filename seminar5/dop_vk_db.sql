@@ -777,7 +777,7 @@ SELECT
     p.birthday
 FROM profiles p
 JOIN users u ON u.id = p.user_id 
-WHERE p.birthday >= '2013-01-01';
+WHERE p.birthday >= '2003-01-01';
 
 SELECT * FROM AgeGroup;
 
